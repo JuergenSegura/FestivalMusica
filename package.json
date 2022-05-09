@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss:build/css",
+    "task": "gulp task"
   },
   "keywords": [
     "SASS",
     "GULP"
   ],
   "author": "Juergen Segura",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.51.0"
+  }
 }
